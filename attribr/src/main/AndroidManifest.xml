@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required to send attribution pings to the Attribr Edge Functions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Used to check connectivity before attempting flush -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
